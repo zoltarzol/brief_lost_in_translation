@@ -1,0 +1,63 @@
+{
+    "nhits": 2187199,
+    "parameters": {
+        "dataset": "donnees-synop-essentielles-omm",
+        "rows": 1,
+        "start": 0,
+        "format": "json",
+        "timezone": "UTC"
+    },
+    "records": [
+        {
+            "datasetid": "donnees-synop-essentielles-omm",
+            "recordid": "31168057aa4fdf427ecc72098c089f1a8190001f",
+            "fields": {
+                "code_dep": "972",
+                "libgeo": "Le Lamentin",
+                "pmer": 101830,
+                "code_epci": "249720061",
+                "t": 303.45,
+                "numer_sta": "78925",
+                "code_reg": "02",
+                "codegeo": "97213",
+                "rr3": 0.0,
+                "coordonnees": [
+                    14.595333,
+                    -60.995667
+                ],
+                "rr12": -0.1,
+                "rr6": 0.0,
+                "tc": 30.30000000000001,
+                "rr24": -0.1,
+                "nom_dept": "Martinique",
+                "mois_de_l_annee": 4,
+                "nom_reg": "Martinique",
+                "td": 294.25,
+                "longitude": -60.995667,
+                "ff": 8.3,
+                "tend24": -10.0,
+                "altitude": 3,
+                "dd": 110,
+                "nom_epci": "CA du Centre de la Martinique",
+                "rr1": 0.0,
+                "date": "2017-04-06T15:00:00+00:00",
+                "nom": "LAMENTIN-AERO",
+                "u": 58,
+                "type_de_tendance_barometrique": "Stationnaire ou en hausse, puis en baisse, ou en baisse, puis en baisse plus rapide",
+                "cod_tend": "8",
+                "tend": -10.0,
+                "latitude": 14.595333,
+                "pres": 101740.0,
+                "vv": 53550.0
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -60.995667,
+                    14.595333
+                ]
+            },
+            "record_timestamp": "2018-10-03T13:48:00Z"
+        }
+    ]
+}
