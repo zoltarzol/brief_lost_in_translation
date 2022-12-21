@@ -15,3 +15,28 @@ df_2_2016
 df_2_2017
 df_2_2018
 df_2_2019
+
+
+merge , how = outer , 
+
+
+
+df.groupby(pd.Grouper(key='date_column_name', freq='W'))
+
+
+
+
+import pandas as pd
+
+# Créer un exemple de DataFrame avec une colonne de dates
+df = pd.DataFrame({'date': ['2022-01-01', '2022-01-02', '2022-01-03', '2022-01-09', '2022-01-10'],
+                   'value': [1, 2, 3, 4, 5]})
+
+# Convertir la colonne 'date' en format datetime
+df['date'] = pd.to_datetime(df['date'])
+
+# Grouper les données par semaine en utilisant pd.Grouper
+df_weekly = df.groupby(pd.Grouper(key='date', freq='W')).sum()
+
+print(df_weekly)
+
