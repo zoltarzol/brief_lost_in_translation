@@ -1,0 +1,17 @@
+Afficher une carte de France avec le nombre d’objets perdus 
+en fonction de la fréquentation de voyageur de chaque région. 
+Possibilité de faire varier par année et par type d’objets
+le nombre d'objet perdu est sur un fichier sql 
+la frequentation de voyageur pour chaque region est a faire 
+
+comment obtenir la frequention de chaque region 
+df_2_2020
+
+
+
+A faire 
+
+df_2_2016
+df_2_2017
+df_2_2018
+df_2_2019

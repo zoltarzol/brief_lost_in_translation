@@ -98,9 +98,9 @@ st.plotly_chart(fig)
 #for i in range(0, len(df)):
 #    folium.CircleMarker(
 #        location=[df.iloc[i]['lat'], df.iloc[i]['lon']],
- #       radius=5,
- #       color='#3186cc',
+#       radius=5,
+#       color='#3186cc',
 #        fill=True,
- #       fill_color='#3186cc'
+#       fill_color='#3186cc'
 #    ).add_to(m)
 
